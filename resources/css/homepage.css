@@ -13,6 +13,7 @@ header {
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 1;
 }
 
 .header-material {
@@ -32,6 +33,32 @@ header {
     position: absolute;
     font-family: 'RocknRoll One', sans-serif;
     left: 90px;
+}
+
+#account {
+    position: relative;
+    left: 790px;
+    top: 3px;
+}
+
+#newrelease {
+    position: relative;
+    left: 850px;
+    top: 3px;
+}
+
+#shop {
+    position: relative;
+    left: 920px;
+    top: 3px;
+}
+
+#cart {
+    position: relative;
+    height:60px;
+    width: 70px;
+    top: 10px;
+    left: 1000px;
 }
 
 .slogan {
@@ -55,7 +82,7 @@ header {
 
 #slogan-pic {
     position: relative;
-    width: 320px;
+    width: 250px;
     padding: 20px;
 }
 
@@ -83,6 +110,24 @@ header {
     left: 5px;
     display: flex;
     flex-direction: row;
+    height: 270px;
+    width: 99.5%;
+    background: linear-gradient(90deg, #495057, rgb(121, 115, 115), #495057 );
+    justify-content: space-evenly;
+    border-radius: 24px;
+}
+.feature-direction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 12px;
+    color: #dad9db;
+}
+
+.feature-direction:hover {
+    color: white;
 }
 
 #feature-title {
@@ -95,44 +140,54 @@ header {
 }
 
 #feature-product-1 {
-    width: 200px;
+    width: 150px;
     position: relative;
     padding: 15px;
 }
 
 #feature-product-2 {
-    width: 200px;
+    width: 150px;
     position: relative;
     padding: 15px;
 }
 
 #feature-product-3 {
-    width: 200px;
+    width: 143px;
     position: relative;
     padding: 15px;
 }
 
 
 #feature-product-4 {
-    width: 130px;
+    width: 103px;
     position: relative;
     padding: 15px;
 }
 
 #feature-product-5 {
-    width: 230px;
+    width: 200px;
     position: relative;
     padding: 15px;
 }
 
 #feature-product-6 {
-    width: 130px;
+    width: 105px;
     position: relative;
     padding: 15px;
 }
 
 #feature-product-7 {
-    width: 180px;
+    width: 155px;
     position: relative;
     padding: 15px;
 }
+
+/* .product-text {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 12px;
+    color: #dad9db;
+}
+
+.product-text:hover{
+    color: white;
+} */
