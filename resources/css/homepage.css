@@ -182,12 +182,9 @@ header {
     padding: 15px;
 }
 
-/* .product-text {
-    font-family: 'RocknRoll One', sans-serif;
-    font-size: 12px;
-    color: #dad9db;
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1024px) {
+    #header{
+        border-color: yellow;
+    }
 }
-
-.product-text:hover{
-    color: white;
-} */
